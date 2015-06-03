@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-        <link rel="stylesheet" href="./font-awesome-4.3.0/css/font-awesome.min.css">
-    <title>bootstrap less2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, user-scalable=no">
+    <link rel="stylesheet" href="./font-awesome-4.3.0/css/font-awesome.min.css">
+    <title>Aragonia Romana</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-inverse">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -39,17 +39,16 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Yacimientos <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="caesaraugusta.html">Caesaraugusta</a></li>
-                            <li><a href="#">Bilbilis</a></li>
-                            <li><a href="#">Los Bañales</a></li>
-                            <li><a href="#">Labitolosa</a></li>
-                            <li><a href="#">Villa Fortunatus</a></li>
+                            <li><a href="y-caesaraugusta.html">Caesaraugusta</a></li>
+                            <li><a href="y-bilbilis.html">Bilbilis</a></li>
+                            <li><a href="y-banales.html">Los Bañales</a></li>
+                            <li><a href="y-labitolosa.html">Labitolosa</a></li>
+                            <li><a href="y-fortunatus.html">Villa Fortunatus</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">BotonesRedesSociales</a></li>
-                    <li><a href="#">Documentación</a></li>
+                    <li><a href="documentacion.html">Documentación</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
@@ -63,9 +62,7 @@
     <div class="container">
         <div class="row" id="fila1">
             <div class="col-sm-4 col-sm-push-8 col-md-4 col-lg-3 col-lg-offset-1 ">
-            <div>
-               <i class="fa fa-facebook-official  fa-3x"></i>  
-            </div>
+                <h2 class="text-center hidden-xs">Información</h2>
                 <div class="table-responsive">
                     <table class="table table-bordered">
                         <tbody>
@@ -93,7 +90,10 @@
                     </table>
                 </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11925.510387581833!2d-0.8961228499999999!3d41.647583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1433224921888" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+                    <a href="https://www.facebook.com/pages/Diario-de-las-excavaciones-de-B%C3%ADlbilis-y-Valdeherrera/234596263229781?fref=ts"><i class="fa fa-facebook-official  fa-3x"></i>  </a>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10746.308502026413!2d-1.6025609417333084!3d41.38093684067589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1433299243526" width="100%" height="300" frameborder="0" style="border:0"></iframe>
                 </div>
             </div>
             <div class="col-sm-8 col-sm-pull-4 col-md-8   col-lg-8 ">
@@ -107,6 +107,24 @@
     <div class="container">
         Fotos
     </div>
+    <footer class="footer navbar-inverse nav navbar-fixed-bottom">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <p class="navbar-text">Aragonia Romana</p>
+                <p class="navbar-text">Víctor Méndez</p>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.facebook.com/pages/Diario-de-las-excavaciones-de-B%C3%ADlbilis-y-Valdeherrera/234596263229781?fref=ts"><i class="fa fa-facebook-official  fa-2x"></i>  </a></li>
+                    <li><a href="https://www.facebook.com/pages/Diario-de-las-excavaciones-de-B%C3%ADlbilis-y-Valdeherrera/234596263229781?fref=ts"><i class="fa fa-facebook-official  fa-2x"></i>  </a></li>
+                    <li><a href="https://www.facebook.com/pages/Diario-de-las-excavaciones-de-B%C3%ADlbilis-y-Valdeherrera/234596263229781?fref=ts"><i class="fa fa-facebook-official  fa-2x"></i>  </a></li>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </footer>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>

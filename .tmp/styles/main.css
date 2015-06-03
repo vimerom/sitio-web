@@ -1382,7 +1382,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid green;
 }
 ul,
 ol {
@@ -6485,4 +6485,15 @@ button.close {
 p {
   text-align: justify;
   text-indent: 3em;
+  font-size: 1.5em;
+}
+body {
+  font-family: Inconsolata;
+  margin-top: 100px;
+}
+h2 {
+  margin-top: 0px;
+}
+#footer {
+  background-color: #222;
 }
