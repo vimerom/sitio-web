@@ -6496,4 +6496,18 @@ h2 {
 }
 #footer {
   background-color: #222;
+  margin-top: 100px;
+}
+.embed-responsive {
+  margin-bottom: 100px;
+}
+#docum {
+  font-size: 2em;
+}
+.fa-arrow-left,
+.fa-arrow-right {
+  margin-top: 130px;
+}
+#carusel-text {
+  font-size: 2em;
 }
