@@ -1,50 +1,63 @@
-@body-bg: #DFDC9E;
-@page-header-border-color:    #836D96;
+//== Scaffolding
+@body-bg: @color-fondo;
+@text-color:darken(@color-cabecera,15%);
+
+
+//== Typography
+@font-family-sans-serif:  @fuente, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 
 // Inverted navbar
 // Reset inverted navbar basics
-@navbar-inverse-color:                      lighten(@gray-light, 15%);
-@navbar-inverse-bg:                         #69231F;
-//@navbar-inverse-bg:                         #AA3939;
-//@navbar-inverse-bg:                         #222;
-@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-color:                      @color-cabecera;
+@navbar-inverse-bg:                         @color-menu;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 lighten(@gray-light, 15%);
-@navbar-inverse-link-hover-color:           #836D96;
-@navbar-inverse-link-hover-bg:              transparent;
-@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
-@navbar-inverse-link-disabled-color:        #444;
-@navbar-inverse-link-disabled-bg:           transparent;
+@navbar-inverse-link-color:                 @color-cabecera;
+@navbar-inverse-link-hover-color:           @color-cabecera;
+@navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 7%);
+@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 7%);
 
 // Inverted navbar brand label
 @navbar-inverse-brand-color:                @navbar-inverse-link-color;
-@navbar-inverse-brand-hover-color:          #836D96;
-@navbar-inverse-brand-hover-bg:             transparent;
+@navbar-inverse-brand-hover-color:          @color-cabecera;
+@navbar-inverse-brand-hover-bg:             darken(@navbar-inverse-bg, 7%);
 
-// Inverted navbar toggle
-@navbar-inverse-toggle-hover-bg:            #333;
-@navbar-inverse-toggle-icon-bar-bg:         #fff;
-@navbar-inverse-toggle-border-color:        #333;
+
+//== Dropdowns
+@dropdown-bg:                    @color-menu;
+@dropdown-link-color:            @color-cabecera;
+@dropdown-link-hover-color:      @color-cabecera;
+@dropdown-link-hover-bg:         darken(@color-menu, 5%);
+
 
 //== Tables
-//
-//## Customizes the `.table` component with basic values, each used across all table variations.
+@table-cell-padding:            5px;
+@table-bg:                      darken(@color-fondo,5%);
+@table-bg-hover:                @color-fondo;
+@table-border-color:            @color-cabecera;
 
-//** Padding for `<th>`s and `<td>`s.
-@table-cell-padding:            8px;
-//** Padding for cells in `.table-condensed`.
-@table-condensed-cell-padding:  5px;
 
-//** Default background color used for all tables.
-@table-bg:                      transparent;
-//** Background color used for `.table-striped`.
-@table-bg-accent:               #f9f9f9;
-//** Background color used for `.table-hover`.
-@table-bg-hover:                #f5f5f5;
-@table-bg-active:               @table-bg-hover;
+//== Forms
+@input-border:                   @color-cabecera;
+@input-border-radius:            @border-radius-large;
+@input-border-focus:             darken(@color-cabecera,50%);
+@input-color-placeholder:        @color-cabecera;
 
-//** Border color for table and cell borders.
-//@table-border-color:            #ddd;
-@table-border-color:            #836D96;
+
+//== Buttons
+@btn-font-weight:                normal;
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @color-menu;
+
+
+//== Carousel
+@carousel-control-width:                      25%;
+@carousel-control-opacity:                    0;
+@carousel-indicator-active-bg:                lighten(@color-menu,60%);
+@carousel-indicator-border-color:             lighten(@color-menu,60%);
+@carousel-caption-color:                      lighten(@color-menu,60%);
+
+
+//== Type
+@page-header-border-color:    @color-cabecera;
